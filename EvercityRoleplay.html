@@ -3,9 +3,11 @@
     <head>
         <title>Evercity Roleplay</title>
         <div id="main">
-            <img src="evercityroleplay.png" alt="Image!"> <h1>Evercity<br>Roleplay</h1> <a href="Info.html"><button>Info</button></a> <a href="Applications.html"><button>Applications</button></a> <a href="Rules.html"><button>Rules</button></a>
+            <img id= "img1"src="evercityroleplay.png" alt="Image!"> <h1>Evercity<br>Roleplay</h1> <a href="Info.html"><button id= "btn1">Info</button></a> <a href="Applications.html"><button id= "btn1">Applications</button></a> <a href="Rules.html"><button id= "btn1">Rules</button></a>
           </div>
           <h2>Evercity Roleplay</h2>
+          <a href="https://www.roblox.com/games/2359201139/Evercity-Roleplay-BETA"><button id= "btn2">Play</button></a>
+          <img src="oliver.png"  id="img2"/> <img src="alex.png" id="img2"/>
     </head>
     <body>
         <style>
@@ -13,7 +15,7 @@
   width: 600px;
 }
 
-img{
+#img1 {
     width: 75px;
     height: 75px;
 }
@@ -29,7 +31,7 @@ h2{
 body {
   background-image: url('https://devforum-uploads.s3.dualstack.us-east-2.amazonaws.com/uploads/optimized/4X/4/8/9/489400c0c1384cab6ce5fa9273ca887322a18547_2_690x332.jpeg');
   background-position: center;
-  background-size: 3000px;
+  background-size: 4000px;
 }
 
 h1 {
@@ -38,7 +40,12 @@ h1 {
     display: inline-block;
 }
 
-button {
+#img2 {
+  width: 100px;
+  height: 100px;
+}
+
+#btn1 {
     margin-left: 10px;
   float: right;
   background-color:rgb(254, 100, 100);
@@ -51,7 +58,27 @@ button {
   border-bottom-left-radius: 25px;
   border-width: 0px;
 }
-button:hover {
+
+#btn2 {
+  margin-left: 800px;
+  background-color: rgb(87, 214, 87);
+  color: rgb(255, 255, 255);
+  width: 300px;
+  height: 100px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-width: 0px;
+  font-size: 75px;
+}
+
+#btn2:hover {
+    background-color: rgb(87, 250, 87);
+    animation: spin 0.5s linear infinite;
+}
+
+#btn1:hover {
     background-color: rgb(255, 255, 40);
     color: rgb(0, 0, 0);
   animation: shake 2s linear infinite;
@@ -71,6 +98,14 @@ button:hover {
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+@keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(360deg); 
+        }
+    }
 
 @keyframes wiggles {
   0%, 7% {
