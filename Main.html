@@ -5,11 +5,49 @@
         <div id="main">
             <img id= "img1"src="evercityroleplay.png" alt="Image!"> <h1>Evercity<br>Roleplay</h1> <a href="Info.html"><button id= "btn1">Info</button></a> <a href="Applications.html"><button id= "btn1">Applications</button></a> <a href="Rules.html"><button id= "btn1">Rules</button></a>
           </div>
-          <h2>Evercity Roleplay</h2>
+          <h2>Launching in!</h2>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  h5{
+    margin-top: -50px;
+  font-family: cursive;
+  text-align: center;
+  color:rgb(255, 255, 40);
+  font-size: 50px;
+  }
+</style>
+</head>
+<body>
+
+<h5 id="demo"></h5>
+
+<script>
+var countDownDate = new Date("2022-10-05 17:00:00").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+    
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Launched!";
+  }
+}, 1000);
+</script>
           <a href="https://www.roblox.com/games/2359201139/Evercity-Roleplay-BETA"><button id= "btn2">Play</button></a>
           <hr>
-          <img src="oliver.png"  id="img2"/> <img src="alex.png" id="img2"/> <img src="cookie.png"  id="img2"/> <img src="wade.png" id="img2"/>
-          <p id="txt1">Oliver (Creator)</p> <p id="txt2">Alex (Main Creator)</p> <p id="txt3">IICoxokie (Developer)</p> <p id="txt4">Wade (Head Developer)</p>
+          <img src="oliver.png"  id="img2"/> <img src="alex.png" id="img2"/> <img src="cookie.png"  id="img2"/> <img src="wade.png" id="img2"/> <img src="FreePalestine.png" id="img2"/>
+          <p id="txt1">Oliver (Creator)</p> <p id="txt2">Alex (Main Creator)</p> <p id="txt3">IICoxokie (Developer)</p> <p id="txt4">Wade (Developer)</p> <p id="txt5">Free Palestine (Head Developer)</p>
     </head>
     <body>
         <style>
@@ -72,6 +110,14 @@ h2{
   margin-top: -60px;
   font-family: cursive;
   margin-left: 1000px;
+  color:rgb(254, 100, 100);
+  font-size: 25px;
+}
+
+#txt5{
+  margin-top: -60px;
+  font-family: cursive;
+  margin-left: 1250px;
   color:rgb(254, 100, 100);
   font-size: 25px;
 }
