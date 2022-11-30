@@ -3,7 +3,7 @@
     <head>
         <title>Applications</title>
         <div id="main">
-          <img src="main.png" alt="Image!"> <h1>Light<br>Studios</h1> <a href="Info.html"><button id= "btn1">Info</button></a> <a href="Main.html"><button id= "btn1">Main</button></a> <a href="Rules.html"><button id= "btn1">Rules</button></a>
+          <img id= "img1"src="main.png" alt="Image!"> <h1>Light<br>Studios</h1> <button id= "btn5">Applications</button> <a href="Rules.html"><button id= "btn1">Rules</button></a> <a href="Info.html"><button id= "btn1">Info</button></a> <a href="Main.html"><button id= "btn1">Main</button></a>
           </div>
           <h2>Applications</h2>
           <div id="Applications">
@@ -15,13 +15,28 @@
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc012xqsG8tZic9mv7xaHyJ9sYh_Mt6pEVgVipiif537l70UA/viewform?embedded=true" width="640" scrolling="no" height="1783" frameborder="0" marginheight="0" marginwidth="0">Laster inn …</iframe>
     </head>
     <body>
-        <style>
-            #main {
-  width: 600px;
+<style>
+#main {
+  width: 700px;
 }
 
 img{
   border-radius: 5px;
+}
+
+#btn5 {
+  margin-left: 10px;
+  float: right;
+  background-color:rgb(255, 255, 40);
+  color: rgb(87, 214, 87);
+  width: 100px;
+  height: 30px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-width: 0px;
+  font-weight: 1000;
 }
 
 iframe{
@@ -99,7 +114,7 @@ h1 {
 }
 
 #btn1 {
-    margin-left: 10px;
+  margin-left: 10px;
   float: right;
   background-color:rgb(254, 100, 100);
   color: rgb(255, 255, 255);
@@ -110,6 +125,14 @@ h1 {
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
   border-width: 0px;
+  font-weight: 1000;
+}
+
+#btn1:hover {
+  background-color: rgb(255, 255, 40);
+  color: rgb(0, 0, 0);
+  animation: shake 2s linear infinite;
+  animation-iteration-count: infinite;
 }
 
 #btn2:hover{
@@ -122,13 +145,6 @@ h1 {
 
 #btn4:hover{
   background-color:rgb(52, 252, 255);
-}
-
-#btn1:hover {
-    background-color: rgb(255, 255, 40);
-    color: rgb(0, 0, 0);
-  animation: shake 2s linear infinite;
-  animation-iteration-count: infinite;
 }
 
 @keyframes shake {

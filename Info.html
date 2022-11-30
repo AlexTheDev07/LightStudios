@@ -4,7 +4,7 @@
       <link rel="stylesheet" href="main.png">
         <title>Info</title>
         <div id="main">
-          <img src="main.png"  id="img1"> <h1>Light<br>Studios</h1> <a href="Main.html"><button>Main</button></a> <a href="Applications.html"><button>Applications</button></a> <a href="Rules.html"><button>Rules</button></a>
+          <img id= "img1"src="main.png" alt="Image!"> <h1>Light<br>Studios</h1> <a href="Applications.html"><button id= "btn1">Applications</button></a> <a href="Rules.html"><button id= "btn1">Rules</button></a> <button id= "btn5">Info</button> <a href="Main.html"><button id= "btn1">Main</button></a>
           </div>
           <h2>Info</h2>
           <div style="text-align: center;">
@@ -16,13 +16,13 @@
               <br>Make sure to report a player if their cheating or ruining peoples fun.
               <br>To report you need to join our discord and report the player with making a ticket in the ticket channel.
               <h4>Sosial Medias</h4>
-            <br> <a href="https://discord.gg/Gxge8NsbFB"><img src="Discord.png" id="img2">
+            <br> <a href="https://discord.gg/Gxge8NsbFB"><img src="Discord.png" id="img2"> <a href="https://www.youtube.com/channel/UC9SOZOJFYETPDjXMMrc0Esw"><img src="YouTube.png" id="img3">
             </div>
     </head>
     <body>
-        <style>
-            #main {
-  width: 600px;
+<style>
+#main {
+  width: 700px;
 }
 
 #img1{
@@ -34,6 +34,21 @@ h5{
   color: rgb(52, 252, 255);
   font-family: cursive;
   font-size: 25px;
+}
+
+#btn5 {
+  margin-left: 10px;
+  float: right;
+  background-color:rgb(255, 255, 40);
+  color: rgb(87, 214, 87);
+  width: 100px;
+  height: 30px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-width: 0px;
+  font-weight: 1000;
 }
 
 h4{
@@ -65,8 +80,20 @@ p{
   transform: scale(1.2);
 }
 
+#img3:hover{
+  transform: scale(1.2);
+}
+
 #img2{
   margin-left: 400px;
+  margin-top: -50px;
+  border-radius: 100px;
+  width: 75px;
+  height: 75px;
+}
+
+#img3{
+  margin-left: 25px;
   margin-top: -50px;
   border-radius: 100px;
   width: 75px;
@@ -98,8 +125,8 @@ h1 {
     display: inline-block;
 }
 
-button {
-    margin-left: 10px;
+#btn1 {
+  margin-left: 10px;
   float: right;
   background-color:rgb(254, 100, 100);
   color: rgb(255, 255, 255);
@@ -110,9 +137,12 @@ button {
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
   border-width: 0px;
+  font-weight: 1000;
 }
-button:hover {
-    background-color: rgb(255, 255, 40);
+
+#btn1:hover {
+  background-color: rgb(255, 255, 40);
+  color: rgb(0, 0, 0);
   animation: shake 2s linear infinite;
   animation-iteration-count: infinite;
 }
