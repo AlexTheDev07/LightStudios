@@ -4,25 +4,95 @@
         <title>Info</title>
         <link rel="icon" type="image/x-icon" href="main.png">
         <div id="main">
-          <img id= "img1"src="main.png" alt="Image!"> <h1>Light<br>Studios</h1> <a href="Downloads.html"><button id= "btn1">Downloads</button></a><a href="Applications.html"><button id= "btn1">Applications</button></a> <a href="Rules.html"><button id= "btn1">Rules</button></a> <button id= "btn5">Info</button> <a href="Main.html"><button id= "btn1">Main</button></a>
+          <img id= "img1"src="main.png" alt="Image!"> <h1>Light<br>Studios</h1> <a href="Downloads.html"><button id= "btn5">Downloads</button></a> <a href="Applications.html"><button id= "btn1">Applications</button></a> <a href="Rules.html"><button id= "btn1">Rules</button></a> <button id= "btn1">Info</button> <a href="Main.html"><button id= "btn1">Main</button></a>
           </div>
-          <h2>Info</h2>
-          <div style="text-align: center;">
-            <div style="display: inline-block; text-align: left;">
-            <h5>Welcome to our Studio! LightStudios. 👨‍👩‍👧‍👦</h5>
-            <p><br>We make alot of different games. Also if you want us to make a different type of game <br>or have suggestions then please contact us at our Discord or Twitter.😊
-              <h3>Report Players</h3>
-              <p>
-              <br>Make sure to report a player if their cheating or ruining peoples fun.
-              <br>To report you need to join our discord and report the player with making a ticket in the ticket channel.
-              <h4>Sosial Medias</h4>
-            <br> <a href="https://discord.gg/Gxge8NsbFB"><img src="Discord.png" id="img2"> <a href="https://www.youtube.com/channel/UC9SOZOJFYETPDjXMMrc0Esw"><img src="YouTube.png" id="img3">
-            </div>
+          <h2>Downloads</h2>
+          <div class="card">
+            <img src="Plugin.png" alt="" id="img6">
+            <h1>Beginner Friendly Plugin</h1>
+            <p class="title">This is an Plugin with 3 basic part events to have fun with and enjoy!</p>
+            <p>Still in development!</p>
+            <button id="btn6" onclick="">Watch Trailer</button>
+            <button id="btn6" onclick="">Download</button>
+          </div>
+          <div class="ccard">
+            <img src="App.png" alt="" id="img7">
+            <h1>LightStudios Panel App</h1>
+            <p class="title">This is an App with many functions to have fun with and enjoy!</p>
+            <p>Still in development!</p>
+            <button id="btn6" onclick="">Watch Trailer</button>
+            <button id="btn6" onclick="">Download</button>
+          </div>
     </head>
     <body>
 <style>
 #main {
   width: 800px;
+}
+
+#img1{
+  border-radius: 5px;
+  width: 75px;
+  height: 75px;
+}
+
+.ccard {
+  padding-top: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+#btn6 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+#img6 {
+  padding-bottom: 50px;
+  border: 10px;
+  width: 200px;
+  height: 300px;
+}
+
+#img7 {
+  padding-bottom: 50px;
+  border: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
 }
 
 #img1{
@@ -59,52 +129,6 @@ h4{
   margin-top: 100px;
 }
 
-h3{
-  padding-left: 400px;
-  font-size: 50px;
-  font-family: cursive;
-  margin-bottom: -25px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  color: rgb(52, 252, 255);
-}
-
-p{
-  font-size: 25px;
-  padding-left: 50px;
-  font-family: cursive;
-  padding-bottom: 10px;
-}
-
-#img2:hover{
-  transform: scale(1.2);
-}
-
-#img3:hover{
-  transform: scale(1.2);
-}
-
-#img2{
-  margin-left: 400px;
-  margin-top: -50px;
-  border-radius: 100px;
-  width: 75px;
-  height: 75px;
-}
-
-#img3{
-  margin-left: 25px;
-  margin-top: -50px;
-  border-radius: 100px;
-  width: 75px;
-  height: 75px;
-}
-
-#img1{
-    width: 75px;
-    height: 75px;
-}
-
 h2{
   margin-top: 100px;
   font-family: cursive;
@@ -116,7 +140,7 @@ h2{
 body {
   background-image: url(background.png);
   background-position: center;
-  background-size: 3000px;
+  background-size: 5000px;
 }
 
 h1 {
@@ -185,5 +209,10 @@ h1 {
   }
 }
         </style>
+        <script>
+          function BFP() {
+            location.href = "🌟  LightStudios 🌟.rbxmx";
+          }
+        </script>
     </body>
 </html>
