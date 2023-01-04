@@ -1,218 +1,37 @@
-<html>
-    <html lang="en"></html>
-    <head>
-        <title>Info</title>
-        <link rel="icon" type="image/x-icon" href="main.png">
-        <div id="main">
-          <img id= "img1"src="main.png" alt="Image!"> <h1>Light<br>Studios</h1> <a href="Downloads.html"><button id= "btn5">Downloads</button></a> <a href="Applications.html"><button id= "btn1">Applications</button></a> <a href="Rules.html"><button id= "btn1">Rules</button></a> <button id= "btn1">Info</button> <a href="Main.html"><button id= "btn1">Main</button></a>
-          </div>
-          <h2>Downloads</h2>
-          <div class="card">
-            <img src="Plugin.png" alt="" id="img6">
-            <h1>Beginner Friendly Plugin</h1>
-            <p class="title">This is an Plugin with 3 basic part events to have fun with and enjoy!</p>
-            <p>Still in development!</p>
-            <button id="btn6" onclick="">Watch Trailer</button>
-            <button id="btn6" onclick="">Download</button>
-          </div>
-          <div class="ccard">
-            <img src="App.png" alt="" id="img7">
-            <h1>LightStudios Panel App</h1>
-            <p class="title">This is an App with many functions to have fun with and enjoy!</p>
-            <p>Still in development!</p>
-            <button id="btn6" onclick="">Watch Trailer</button>
-            <button id="btn6" onclick="">Download</button>
-          </div>
-    </head>
-    <body>
-<style>
-#main {
-  width: 800px;
-}
+<html lang="en">
 
-#img1{
-  border-radius: 5px;
-  width: 75px;
-  height: 75px;
-}
+<head>
+  <title>Downloads</title>
+  <link rel="icon" type="image/x-icon" href="main.png">
+  <link rel="stylesheet" href="Downloads.css">
+  <div id="main">
+    <img id="img1" src="main.png" alt="Image!">
+    <h1>Light<br>Studios</h1> <a href="Downloads.html"><button id="btn5">Downloads</button></a> <a
+      href="Applications.html"><button id="btn1">Applications</button></a> <a href="Rules.html"><button
+        id="btn1">Rules</button></a> <a href="Games.html"><button id="btn1">Games</button></a> <a
+      href="Info.html"><button id="btn1">Info</button></a> <a href="Main.html"><button id="btn1">Main</button></a>
+  </div>
+  <h2>Downloads</h2>
+  <div class="card">
+    <img src="Plugin.png" alt="" id="img6">
+    <h1>Beginner Friendly Plugin</h1>
+    <p class="title">This is an Plugin with 3 basic part events to have fun with and enjoy!</p>
+    <p>Still in development!</p>
+    <button id="btn6" onclick="">Watch Trailer</button>
+    <button id="btn6" onclick="">Download</button>
+  </div>
+  <div class="ccard">
+    <img src="App.png" alt="" id="img7">
+    <h1>LightStudios Panel App</h1>
+    <p class="title">This is an App with many functions to have fun with and enjoy!</p>
+    <p>Still in development!</p>
+    <button id="btn6" onclick="">Watch Trailer</button>
+    <button id="btn6" onclick="">Download</button>
+  </div>
+</head>
 
-.ccard {
-  padding-top: 100px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
+<body>
+  <script src="Downloads.js"></script>
+</body>
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
-
-.title {
-  color: grey;
-  font-size: 18px;
-}
-
-#btn6 {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-#img6 {
-  padding-bottom: 50px;
-  border: 10px;
-  width: 200px;
-  height: 300px;
-}
-
-#img7 {
-  padding-bottom: 50px;
-  border: 10px;
-  width: 300px;
-  height: 200px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button:hover, a:hover {
-  opacity: 0.7;
-}
-
-#img1{
-  border-radius: 5px;
-}
-
-h5{
-  text-align: center;
-  color: rgb(52, 252, 255);
-  font-family: cursive;
-  font-size: 25px;
-}
-
-#btn5 {
-  margin-left: 10px;
-  float: right;
-  background-color:rgb(255, 255, 40);
-  color:rgb(52, 252, 255);
-  width: 100px;
-  height: 30px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-width: 0px;
-  font-weight: 1000;
-}
-
-h4{
-  font-family: cursive;
-  font-size: 50px;
-  color: rgb(52, 252, 255);
-  margin-left: 400px;
-  margin-top: 100px;
-}
-
-h2{
-  margin-top: 100px;
-  font-family: cursive;
-  text-align: center;
-  color:rgb(52, 252, 255);
-  font-size: 100px;
-}
-
-body {
-  background-image: url(background.png);
-  background-position: center;
-  background-size: 5000px;
-}
-
-h1 {
-    color: rgb(255, 255, 40);
-    margin: 0;
-    display: inline-block;
-}
-
-#btn1 {
-  margin-left: 10px;
-  float: right;
-  background-color:rgb(254, 100, 100);
-  color: rgb(255, 255, 255);
-  width: 100px;
-  height: 30px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-width: 0px;
-  font-weight: 1000;
-}
-
-#btn1:hover {
-  background-color: rgb(255, 255, 40);
-  color: rgb(0, 0, 0);
-  animation: shake 2s linear infinite;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-@keyframes wiggles {
-  0%, 7% {
-    transform: rotateZ(0);
-  }
-  15% {
-    transform: rotateZ(-15deg);
-  }
-  20% {
-    transform: rotateZ(10deg);
-  }
-  25% {
-    transform: rotateZ(-10deg);
-  }
-  30% {
-    transform: rotateZ(6deg);
-  }
-  35% {
-    transform: rotateZ(-4deg);
-  }
-  40%, 100% {
-    transform: rotateZ(0);
-  }
-}
-        </style>
-        <script>
-          function BFP() {
-            location.href = "🌟  LightStudios 🌟.rbxmx";
-          }
-        </script>
-    </body>
 </html>
